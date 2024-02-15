@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Ký</title>
+</head>
+<body>
+<h2>Đăng Ký</h2>
+<form method="post" action="/accounts/register">
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="username" placeholder="Tên người dùng" required>
+    <input type="password" name="password" placeholder="Mật khẩu" required>
+    <input type="number" name="age" placeholder="Tuổi" required>
+    <input type="text" name="phone" placeholder="Số điện thoại" required>
+    <select name="role" required>
+        <option value="employee">Nhân viên bán hàng</option>
+        <option value="admin">Quản trị viên</option>
+    </select>
+    <button type="submit">Đăng ký</button>
+</form>
+<div id="registerResponse"></div>
+</body>
+</html>
