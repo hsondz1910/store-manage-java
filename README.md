@@ -33,7 +33,7 @@ CommandLineRunner runner(UserRepository repository) {
 Chạy ứng dụng một lần và sau đó xóa đoạn mã thêm người dùng mẫu để có thể đăng nhập một cách suôn sẻ.
 
 4. Các liên kết quan trọng
-    Để vào trang đăng nhập: http://localhost:8080/accounts/login
-    Để vào trang Quản lý Sản phẩm: http://localhost:8080/products
-    Để vào trang Quản lý Nhân viên: http://localhost:8080/employees
-    Để vào trang Quản lý Khách hàng: http://localhost:8080/customers
+- Để vào trang đăng nhập: http://localhost:8080/accounts/login
+- Để vào trang Quản lý Sản phẩm: http://localhost:8080/products
+- Để vào trang Quản lý Nhân viên: http://localhost:8080/employees
+- Để vào trang Quản lý Khách hàng: http://localhost:8080/customers
